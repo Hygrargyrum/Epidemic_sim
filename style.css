@@ -1,0 +1,98 @@
+.label{
+    font-family: Georgia;
+    font-style: bold;
+    font-size: 24pt;
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.bg{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(230,230,230);
+    border: 3px inset black;
+    border-radius: 20px;
+
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.but{
+    width: 160px;
+    height: 30px;
+    background-color: rgb(160,160,160);
+    color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+    
+    margin-top: 20px;
+    margin-bottom: 0vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+    width: 240px;
+    height: 240px;
+    border: 3px solid black;
+    background-image: url(icon.png);
+    background-size: cover;
+
+    margin-top: 30px;
+    margin-bottom: 0vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel{
+    width: 260px;
+    height: 260px;
+    border: 2px solid black;
+    border-radius: 12px;
+
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    font-family: Georgia;
+    font-size: 18pt;
+    text-align: center;
+}
+
+.text{
+    font-family: Georgia;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#map_container{
+
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cell{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid black;
+}
